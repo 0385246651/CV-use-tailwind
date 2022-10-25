@@ -1,0 +1,14 @@
+{
+  "name": "tailwwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev" : "npx tailwindcss -i style.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
